@@ -1,10 +1,11 @@
 import { createApp } from 'vue'
-import './style.css'
+// import './style.css'
 import App from './App.vue'
 
 // 引入antd
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/reset.css';
+import './assets/global.css'
 
 const app = createApp(App)
 
